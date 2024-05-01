@@ -57,6 +57,15 @@ class MainActivity : ComponentActivity() {
                                     )
                                 }
                         )
+
+                        Text(
+                            text = "Go Flutter flow2 Page",
+                            modifier = Modifier.clickable {
+                                startActivity(
+                                    Intent(context, MyFlutter2Activity::class.java)
+                                )
+                            }
+                        )
                     }
                 }
             }
@@ -68,7 +77,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(modifier: Modifier = Modifier) {
     Text(
         modifier = modifier,
-        text = "Go Flutter Page",
+        text = "Go Flutter flow1 Page",
     )
 }
 

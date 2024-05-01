@@ -4,7 +4,7 @@ import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
-class MyFlutterActivity : FlutterActivity() {
+class MyFlutter2Activity : FlutterActivity() {
     /**
      *  TODO 確認是否要用 Cache 的 FlutterEngine
      *
@@ -19,7 +19,7 @@ class MyFlutterActivity : FlutterActivity() {
 //    }
 
     override fun getInitialRoute(): String {
-        return "/detail"
+        return "/listing_first_step"
     }
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
